@@ -1,6 +1,6 @@
-<mxfile modified="2021-09-22T01:32:28.798Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="o1Lwv30xqDxGwEjr5qt8" version="14.9.8" type="github">
+<mxfile modified="2021-09-22T01:40:45.529Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="2DWsHsfjzSPjY6oeBL-n" version="14.9.8" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1790" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1790" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="SCVMTBWpLvtzJIhz15lM-31" value="192.168.2.100&lt;br&gt;192.168.3.101" style="outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_devices;pointerEvents=1" parent="1" vertex="1">
           <mxGeometry x="400" y="440" width="52" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="CYrWtq3otNESkZFhiiQj-9" value="&lt;span style=&quot;color: rgb(35 , 47 , 62) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;http://192.168.3.101:19840/ComSoap/&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYrWtq3otNESkZFhiiQj-1" target="CYrWtq3otNESkZFhiiQj-3">
+        <mxCell id="CYrWtq3otNESkZFhiiQj-9" value="&lt;span style=&quot;color: rgb(35 , 47 , 62) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;http://192.168.3.101:19840/ComSoap/&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;WebServiceSOAP3.asmx&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYrWtq3otNESkZFhiiQj-1" target="CYrWtq3otNESkZFhiiQj-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="350" as="targetPoint" />
           </mxGeometry>
@@ -50,6 +50,9 @@
             <mxPoint x="639" y="188" as="sourcePoint" />
             <mxPoint x="639" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CYrWtq3otNESkZFhiiQj-19" value="&lt;font style=&quot;font-size: 10px&quot;&gt;webservice必需使用8082端口，&lt;br&gt;因服务器没有开放8082端口&lt;br&gt;所以需要在本地做端口转发。&lt;br&gt;将本地的127.0.0.1:8082/ComSoap转发到访问的webservice地址上，&lt;br&gt;然后通过访问本地的8082端口来访问webservice&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="920" y="70" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
